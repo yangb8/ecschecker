@@ -1,0 +1,10 @@
+package: github.com/yangb8/ecschecker
+import:
+- package: github.com/aws/aws-sdk-go
+  version: ~1.10.31
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/credentials
+  - aws/session
+  - service/s3
