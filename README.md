@@ -3,7 +3,7 @@
 Welcome to EcsChecker.
 
 If new to golang, please make sure env variables GOPATH and GOROOT are set properly, and this project shall be put at the following location:
-`${GOPATH}/src/github.com/yangb8/`
+`${GOPATH}/src/github.com/yangb8/ecschecker`
 
 Just an example
 ```
