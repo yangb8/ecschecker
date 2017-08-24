@@ -2,8 +2,16 @@
 
 Welcome to EcsChecker.
 
-Ensure env variables GOPATH and GOROOT are set properly, and this folder is at the following location:
-`${GOPATH}/github.com/yangb8/`
+If new to golang, please make sure env variables GOPATH and GOROOT are set properly, and this project shall be put at the following location:
+`${GOPATH}/src/github.com/yangb8/`
+
+Just an example
+```
+$ echo $GOROOT
+/usr/local/Cellar/go/1.8.3/libexec
+$ echo $GOPATH
+/Users/myusername/go
+```
 
 ### Requirements
 
