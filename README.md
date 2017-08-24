@@ -16,3 +16,9 @@ Ensure env variables GOPATH and GOROOT are set properly, and this folder is at t
 glide install
 go build -o verify verify.go
 ```
+
+In case, you need to build for another platform different from your local
+```
+go get github.com/mitchellh/gox
+gox -output="../bin/{{.Dir}}-{{.OS}}-{{.Arch}}"
+```
